@@ -1,0 +1,16 @@
+export { default as image1 } from "@/assets/image/about/image.svg";
+export { default as image2 } from "@/assets/image/about/image2.svg";
+export { default as image3 } from "@/assets/image/about/image3.svg";
+export { default as twitterImage } from "@/assets/image/card/Twitter_logo.svg"
+export { default as youtubeImage } from "@/assets/image/card/YouTube_logo.svg"
+export { default as wordpressImage } from "@/assets/image/card/Wordpress_logo.svg"
+export { default as substackImage } from "@/assets/image/card/Substack_logo.svg"
+export { default as mediumImage } from "@/assets/image/card/Medium_logo.svg"
+export { default as rssFeedsImage } from "@/assets/image/card/Wordpress_logo.svg"
+export { default as spotifyImage } from "@/assets/image/card/Spotify_logo.svg"
+export { default as anchorImage } from "@/assets/image/card/Anchor_logo.svg"
+export { default as podcastImage } from "@/assets/image/card/Podcast_logo.svg"
+export { default as instagramImage } from "@/assets/image/card/Instagram_logo.svg"
+export { default as linkedinImage } from "@/assets/image/card/Linkedin_logo.svg"
+export { default as facebookImage } from "@/assets/image/card/Facebook_logo.svg"
+export { default as pricnigImage } from "@/assets/image/pricing/Check.svg"

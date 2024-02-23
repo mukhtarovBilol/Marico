@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+body {
+    background: var(--primary-color);
+}
+
+.container {
+    max-width: 1655px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-size: 75px;
+    color: var(--secondary-color);
+}

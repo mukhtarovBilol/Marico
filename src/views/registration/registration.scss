@@ -1,0 +1,134 @@
+.registration {
+    padding: 70px 0 0 0;
+
+    &__desc {
+        text-align: center;
+        margin-bottom: 75px;
+    }
+
+    &__title {
+        color: var(--secondary-color);
+        font-size: 75px;
+    }
+
+    &__txt {
+        color: var(--secondary-color);
+        font-size: 24px;
+    }
+
+    &__form {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(507px, 1fr));
+        place-items: center;
+        gap: 87px;
+        margin-bottom: 67px;
+        
+        &-input {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid var(--secondary-color);
+            padding:  0 0 15px 0;
+        }
+    }
+    
+    &__input {
+        width: 400px;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        color: var(--secondary-color);
+    } 
+
+    &__btn {
+        max-width: 487px;
+        width: 100%;
+        background: var(--ternary-color);
+        color: var(--secondary-color);
+        margin: 20px 0 auto;
+        padding: 20px 0;
+        border-radius: 12px;
+        border: 0;
+        outline: 0;
+        font-size: 26px;
+    }
+
+    &__with {
+        text-align: center;
+
+        &-title {
+            color: var(--secondary-color);
+            font-size: 54px;
+        }
+
+        &-txt {
+            color: var(--secondary-color);
+            font-size: 24px;
+        }
+    }
+
+    &__signUp {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+        gap: 30px;
+        margin-bottom: 69px;
+        margin-top: 15px;
+                
+        &-txt {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--secondary-color);
+            font-size: 21px;
+            padding: 20px 0;
+            border: 2px solid var(--secondary-color);
+            border-radius: 15px;
+            gap: 20px;
+            transition: 0.5s;
+
+            &:hover {
+                box-shadow: rgb(255, 254, 254) 0px 10px 36px 0px, rgba(226, 223, 223, 0.953) 0px 0px 0px 1px;
+            }
+        }
+    }
+
+    &__bottom-txt {
+        color: var(--secondary-color);
+        text-align: center;
+        padding: 46px 0 70px 0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 530px) {
+    .registration__form-input {
+        max-width: 255px;
+        width: 100%;
+    }
+
+    .registration__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .registration__btn {
+        display: grid;
+        place-items: center;
+        width: 50%;
+    }
+
+    .registration__title {
+        font-size: 60px;
+    }
+
+    .registration__txt {
+        font-size: 16px;
+    }
+
+    .registration__signUp-txt {
+        // width: 100%;
+        font-size: 16px;
+    }
+}

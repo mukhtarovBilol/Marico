@@ -1,0 +1,28 @@
+.pricing {
+    padding: 100px 0 0 0;
+
+    &__title {
+        font-size: 75px;
+        color: var(--secondary-color);
+        text-align: center;
+    }
+
+    &__cards {
+        padding: 123px 0 150px 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+        gap: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .pricing__title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 414px) {
+    .pricing__title {
+        font-size: 40px;
+    }
+}

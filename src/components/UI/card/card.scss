@@ -1,0 +1,130 @@
+.card {
+    padding: 35px 47px 16px 32px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    transition: 0.5s;
+
+    &__title {
+        color: var(--secondary-color);
+        font-size: 30px;
+        margin-bottom: 11px;
+    }
+
+    &__txt {
+        width: 100%;
+        color: #828282;
+        font-size: 23px;
+    }
+
+    &__image {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 17px;
+    }
+
+    &:hover {
+        box-shadow: 0 0 25px var(--secondary-color);
+    }
+
+    &__link {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        color: var(--secondary-color);
+    }
+
+    &-txt {
+        color: #b4b1b1;
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+
+    &__prices {
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__price {
+        font-size: 69px;
+        color: var(--secondary-color);
+    }
+
+    &__priceTxt {
+        color: #b4b1b1;
+        font-size: 26px;
+    }
+
+    &__price2 {
+        color: #b4b1b1;
+        font-size: 28px;
+    }
+
+    &__collect {
+        font-size: 27px;
+        color: var(--secondary-color);
+        margin-bottom: 9px;
+        font-weight: 700;
+        margin-top: 108px;
+    }
+
+    &__emails {
+        font-size: 28px;
+        color: var(--secondary-color);
+        margin-bottom: 45px;
+    }
+
+    &__letter {
+        color: #b4b1b1;
+        font-size: 21px;
+        text-align: center;
+        margin-bottom: 52px;
+    }
+
+    &__key {
+        color: var(--secondary-color);
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 36px;
+    }
+
+    &__rate {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--secondary-color);
+        font-size: 22px;
+    }
+
+    &__btn {
+        color: var(--secondary-color);
+        font-size: 27px;
+        border: 3px solid var(--ternary-color);
+        padding: 30px 30px;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        border-radius: 13px;
+        margin-top: 89px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card__price {
+        font-size: 40px;
+    }
+
+    .card__txt,
+    .card__price2,
+    .card__emails,
+    .card__rate,
+    .card__btn {
+        font-size: 20px;
+    }
+
+    .card__collect,
+    .card__key {
+        font-size: 23px;
+    }
+}

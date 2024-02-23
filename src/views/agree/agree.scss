@@ -1,0 +1,16 @@
+.agree {
+    padding: 99px 0 150px 0;
+
+    &__title {
+        font-size: 75px;
+        margin-bottom: 52px;
+        color: var(--secondary-color);
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .agree__title {
+        font-size: 55px;
+    }
+}

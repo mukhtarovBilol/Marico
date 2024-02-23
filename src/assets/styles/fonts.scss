@@ -1,0 +1,9 @@
+$Poppins: ('ExtraBold', 800), ('Bold', 700), ('SemiBold', 600), ('Medium', 500), ('Regular', 400);
+
+@each $name, $weight in $Poppins {
+    @font-face {
+        src: url(../fonts/Poppins/Poppins-#{$name}.ttf);
+        font-family: "Poppins";
+        font-weight: $weight;
+    }
+}
